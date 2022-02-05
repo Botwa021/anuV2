@@ -1,5 +1,7 @@
 let fs = require('fs')
 let fetch = require('node-fetch')
+let wm = global.botwm
+let logo = global.logo
 let handler = m => m
 
 handler.all = async function (m, { isBlocked }) {
@@ -15,34 +17,34 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? `${namabot} tidak aktif` : banned ? 'kamu dibanned' : `AlyaaXzy di sini, Btw ngapain manggil kangen ya bg?`,
-                footer,
+                isBanned ? 'Mursid lagi cape :)' : banned ? 'kamu dibanned' : 'Mursid disini :）',
+                '',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
-                isBanned ? '.unban' : banned ? '.owner' : '.?',
-                m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
-                m.isGroup ? '.ban' : isBanned ? '.unban' : '.donasi', m)
+                isBanned ? '.unban' : banned ? '.owner' : '.menu',
+                m.isGroup ? 'Owner' : isBanned ? 'Donasi' : 'Donasi',
+                m.isGroup ? '.nowner' : isBanned ? '.donasi' : '.donasi', m)
         }
     } catch (e) {
         return
     }
 
     // ketika ada yang invite/kirim link grup di chat pribadi
-    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup && !m.fromMe && !m.isOwner) {
-        this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
-╠➥ *1 Bulan* :      *Rp 20000*
-╠➥ *Permanen* : *Rp 15000*
-╠➥ *Premium* :   *Rp 15000*
-╠➥ *Sc Bot* :        *Masih Beta*
-║
-╠═〘 PEMBAYARAN 〙 ═
-╠➥ Gopay, Dana, Dan Pulsa
-║
-╠═ Tertarik Untuk Beli Bot Ini?
-╠➥Ketuk Tombol Di Bawah Ya
-║
-╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
-╠═〘 ${namabot} 〙 ═`.trim(), footer, 'Dana', '#viadana', 'GoPay', '#viagopay', m)
+    if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
+        this.send2ButtonLoc(m.chat, logo, `
+╭━━〔 List Sewa〕━✧
+│⬦ *1 Bulan* :      *Rp 20000*
+│⬦ *2 bulan* :      *Rp 40000*
+│⬦ *8 Bulan* :      *Rp 100.000*
+│⬦ *12 Bulan* :      *Rp 150.000*
+┝━━〔Payment • Pulsa〕━✧
+│⬦ Smartfren : 088233832771
+│⬦ Saweria : Gak ada
+│⬦ Tri : 089612698583
+┝━━〔Dana • Non Pulsa〕━✧
+│⬦ Dana : 088233832771
+│⬦ Owner : wa.me//6288233832771
+╰━━━✧
+Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', 'Owner', '#owner', m)
 }
 
     // salam
@@ -50,6 +52,7 @@ handler.all = async function (m, { isBlocked }) {
     let isSalam = reg.exec(m.text)
     if (isSalam && !m.fromMe) {
         m.reply(`وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ\n_wa\'alaikumussalam wr.wb._`)
+
     }
 
     // backup db
@@ -72,7 +75,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | ${namabot} by ${namalu}`).catch(_ => _)
+        await this.setStatus(`I'm MURSID BOT 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User ||🖥️ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
