@@ -49,7 +49,7 @@ xteamkey = 'Dawnfrostkey'
 namaig = 'GAK ADA :)'
 namagithub = 'GAK ADA :)'
 kasihcaption = `Nih kak`
-namakontak1 = 'Nomer Bot Mursid (1)'
+namakontak1 = 'Nomer Bot'
 namakontak2 = 'Mursid (Owner)'
 
 //kasihcaption = `Nih Kak`
@@ -60,9 +60,9 @@ global.author = 'WhatsApp Bot' // ganti aja
 
 //yyy
 bc = 'MursidXzy' //MursidXy Broadcast
-footer = '\n©Mursid Is The best'
-namabot = 'MursidXzy'
-namalu = 'Mursid'
+footer = '\nωнαтѕαρρ вσт敢'
+namabot = 'MURSID'
+namalu = 'Nurutomo'
 
 
 // 
