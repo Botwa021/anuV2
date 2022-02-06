@@ -15,7 +15,7 @@ let handler = async (m, { conn, text, participants }) => {
         contextInfo: {
           mentionedJid: users
         },
-        quoted: m
+        quoted: false
       }
     ),
     text || q.text 
