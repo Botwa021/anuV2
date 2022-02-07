@@ -55,13 +55,13 @@ namakontak2 = 'Mursid (Owner)'
 //kasihcaption = `Nih Kak`
 
 // Sticker WM
-global.packname = 'Mursid Xzy' // ganti aja
+global.packname = 'MursidXzy' // ganti aja
 global.author = 'WhatsApp Bot' // ganti aja
 
 //yyy
 bc = 'MursidXzy' //MursidXy Broadcast
-footer = '\nωнαтѕαρρ вσт敢'
-namabot = 'MURSID'
+footer = '\n© Im Mursid'
+namabot = 'Im Mursid'
 namalu = 'Nurutomo'
 
 
