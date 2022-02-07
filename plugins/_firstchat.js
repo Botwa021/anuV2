@@ -20,18 +20,18 @@ ${user.banned ? 'kamu dibanned' : 'ωнαтѕαρρ вσт di sini ada yang bisa
 module.exports = handler
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Selamat dinihari"
+    res = "Good Morning<3"
     if (time >= 4) {
-        res = "Selamat pagi"
+        res = "Good Morning<3"
     }
     if (time > 10) {
-        res = "Selamat siang"
+        res = "Good Afternoon<3"
     }
     if (time >= 15) {
-        res = "Selamat sore"
+        res = "Good Afternoon<3"
     }
     if (time >= 18) {
-        res = "Selamat malam"
+        res = "Good Night<3"
     }
     return res
 }
