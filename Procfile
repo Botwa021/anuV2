@@ -1,1 +1,2 @@
-worker: node index
+worker: npm install && npm update && node . --server
+
