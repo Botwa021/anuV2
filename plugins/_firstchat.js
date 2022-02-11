@@ -10,7 +10,7 @@ handler.all = async function (m) {
     let user = global.db.data.users[m.sender]
     if (new Date - user.pc < 9000000) return // setiap 1 jam sekali
     await this.sendButton(m.chat, `
-Hai, ${ucapan()}
+Hai kak, ${ucapan()}
 
 ${user.banned ? 'kamu dibanned' : 'I'm MURSID di sini ada yang bisa saya bantu? Jika mau liat menu tinggal ketik *#menu* atau ketik button di bawah'}
 `.trim(), footer, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '#owner' : '#menu', m)
