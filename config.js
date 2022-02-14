@@ -50,7 +50,7 @@ namaig = 'mursid.st'
 namagithub = 'Botwa021'
 kasihcaption = `Follow Ig @mursid.st`
 namakontak1 = 'Nomer Bot'
-namakontak2 = 'Mursid S (Owner)'
+namakontak2 = 'Mursid S'
 
 //kasihcaption = `Follow Ig @mursid.st`
 
@@ -60,9 +60,9 @@ global.author = 'WhatsApp Bot' // ganti aja
 
 //yyy
 bc = 'MursidXzy' //MursidXy Broadcast
-footer = `\n© I'm Mursid`
-namabot = `I'm Mursid`
-namalu = 'Nurutomo'
+footer = `\n© wabot-aq`
+namabot = `Bot WhatsApp`
+namalu = 'MursidGanteng'
 
 
 // 
