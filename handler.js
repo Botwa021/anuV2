@@ -578,7 +578,7 @@ global.dfail = (type, m, conn) => {
     admin: 'Perintah ini hanya untuk *Admin* grup!',
     nsfw: `Perintah ini hanya bisa diaktifkan oleh @${global.kontak[0].split`@`[0]}`,
     botAdmin: 'Jadikan Bot sebagai admin untuk menggunakan perintah ini\n\nDenger ya dekkk!!!\nApakah orang yang tidak menjadi admin bisa menambahkan member???!!!!!',
-    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar nama.16*`
+    unreg: `Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Mursid ganteng.17*`
   }[type]
   if (msg) return m.reply(msg)
 }
