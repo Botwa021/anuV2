@@ -39,11 +39,11 @@ let handler = async (m, { conn, text }) => {
 │   *_Jangan judi, Karena gk bakal_*
 │   *_balik modal.BENERAN GK BOHONG_*
 │  
-├➥*©BOT 2020-2021*
+├➥*©BOT 2021-2022*
 └─「 *Tutorial Main BOT* 」
 
 `.trim()
-conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Tutorial')).buffer(), ext, 'Recoded By Raditya', 'Adventure', '.adventure', 'Claim', '.claim', 'Sewa Bot', '.sewa', m)
+conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Tutorial')).buffer(), ext, 'Recoded By Mursid', 'Adventure', '.adventure', 'Claim', '.claim', 'Sewa Bot', '.sewa', m)
 
 }
 handler.help = ['tutorial']
