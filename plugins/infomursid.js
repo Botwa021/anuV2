@@ -18,9 +18,9 @@ conn.reply(m.chat, `
 `.trim(), m)
 }
 
-handler.help = ['infoowner']
+handler.help = ['infomursid']
 handler.tags = ['main', 'utama']
-handler.command = /^(infoowner)$/i
+handler.command = /^(infomursid)$/i
 
 handler.exp = 150
 
