@@ -59,7 +59,7 @@ global.packname = 'MursidXzy' // ganti aja
 global.author = 'WhatsApp Bot' // ganti aja
 
 //yyy
-bc = 'MursidXzy' //MursidXzy Broadcast
+bc = 'wabot-aq' //wabot-aq Broadcast
 footer = `\n©wabot-aq`
 namabot = `WhatsApp Bot`
 namalu = 'MursidGanteng'
