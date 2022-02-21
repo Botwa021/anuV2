@@ -10,6 +10,8 @@ conn.reply(m.chat, `
 │    https://chat.whatsapp.com/LPFQ2X1cnihB0fb8F8cZau
 │ ✎ _Official Grup 2_ :
 │    https://chat.whatsapp.com/HjRHck1G3WRHOx97fJkdMN
+│ ✎ _Official Grup 3_ :
+│    https://chat.whatsapp.com/HcGcIB09sIvKrGytO8yfFn
 │ ✎ _Instagram_ : 
 │    instagram.com/mursid.st
 │ ✎ _WhatsApp_ :
