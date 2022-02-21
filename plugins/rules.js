@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
-    let teks = `Kebijakan Privasi, Syarat Ketentuan dan Peraturan Sirad BOT
+    let teks = `Kebijakan Privasi, Syarat Ketentuan dan Peraturan Mursid BOT
 
 Kebijakan Privasi
 1. MursidBot tidak akan merekam data riwayat chat user.
