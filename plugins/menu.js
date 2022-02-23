@@ -25,8 +25,9 @@ const defaultMenu = {
 ┃
 ┃⬡ Uptime : %uptime
 ┃⬡ Database : %rtotalreg dari %totalreg
+┃⬡ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 ┃⬡ Instagram
-┃⬡ https ://instagram.com/mursid.st
+┃⬡ https://instagram.com/mursid.st
 ┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
