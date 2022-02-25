@@ -55,19 +55,19 @@ namakontak2 = 'Mursid (Owner)'
 //kasihcaption = `Follow Ig @mursid.st`
 
 // Sticker WM
-global.packname = 'MursidXzy' // ganti aja
-global.author = 'WhatsApp Bot' // ganti aja
+global.packname = 'мυяѕι∂' // ganti aja
+global.author = 'ʙᴏᴛ' // ganti aja
 
 //yyy
-bc = 'wabot-aq' //wabot-aq Broadcast
-footer = `\n©wabot-aq`
+bc = 'мυяѕι∂' //мυяѕι∂ Broadcast
+footer = `\n© мυяѕι∂ ʙᴏᴛ`
 namabot = `WhatsApp Bot`
 namalu = 'MursidGanteng'
 
 
 // 
-wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
-global.wait = '_*Tunggu Sebentar orang sabar di sayang mursid...*_'
+wait = '_*Tunggu Sebentar ya...*_'
+global.wait = '_*Tunggu Sebentar ya...*_'
 global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur ini!\nKalo Mau main Disini aja\nhttps://chat.whatsapp.com/FnNAbem8o6r4pgLhSdO8Q9'
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Server Error kak*_'
