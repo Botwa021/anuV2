@@ -6,6 +6,7 @@ let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fet
 └────
 ┌〔 Donasi • Non Pulsa 〕
 ├ Dana : 088233832771
+├ Saweria : saweria.co/mursid25
 ├ Owner : wa.me/6288233832771
 └────
 `.trim(), footer, 'Owner', '.owner')
