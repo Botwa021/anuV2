@@ -1,3 +1,4 @@
+process.env.TZ = 'Asia/Jakarta'
 let levelling = require('../lib/levelling')
 let { MessageType } = require('@adiwajshing/baileys')
 let fs = require('fs')
@@ -6,6 +7,10 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
+const os = require('os')
+var sisaram = `${Math.round(os.freemem / 1024 / 1024)}`
+var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
+var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
 ┏━━〔 ${namabot} 〕━⬣
@@ -25,9 +30,12 @@ const defaultMenu = {
 ┃
 ┃⬡ Uptime : %uptime
 ┃⬡ Database : %rtotalreg dari %totalreg
-┃⬡ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
+┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
 ┃⬡ Instagram
 ┃⬡ https://instagram.com/mursid.st
+┃
+┃⬡ Hy I'm Mursid I'm from Indonesia
+┃⬡ I'm not a programmer
 ┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
