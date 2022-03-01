@@ -31,11 +31,14 @@ const defaultMenu = {
 ┃⬡ Uptime : %uptime
 ┃⬡ Database : %rtotalreg dari %totalreg
 ┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
+┃⬡ Github
+┃⬡ github.com/botwa021/games-wabot
+┃
+┃⬡ Hy I'm MursidXyz I'm from Indonesia
+┃⬡ I'm not a programmer
+┃⬡ I am 17 years old
 ┃⬡ Instagram
 ┃⬡ https://instagram.com/mursid.st
-┃
-┃⬡ Hy I'm Mursid I'm from Indonesia
-┃⬡ I'm not a programmer
 ┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
