@@ -13,7 +13,7 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-┏━━〔 ${namabot} 〕━⬣
+┏━━〔 MURSID BOT 〕━⬣
 ┃⬡ Hai, %name!
 ┃
 ┃⬡ Tersisa %limit Limit
@@ -31,15 +31,8 @@ const defaultMenu = {
 ┃⬡ Uptime : %uptime
 ┃⬡ Database : %rtotalreg dari %totalreg
 ┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
-┃⬡ Github
-┃⬡ github.com/botwa021/games-wabot
-┃
-┃⬡ Hy I'm MursidXyz I'm from Indonesia
-┃⬡ I'm not a programmer
-┃⬡ I am 17 years old
-┃⬡ Instagram
+┃⬡ Instagram :
 ┃⬡ https://instagram.com/mursid.st
-┃
 ┗━━━━━━⬣`.trimStart(),
     header: '┏━━〔 %category 〕━⬣',
     body: '┃⬡%cmd %islimit %isPremium',
