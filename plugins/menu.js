@@ -33,11 +33,11 @@ const defaultMenu = {
 ║┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
 ║┃⬡ Instagram :
 ║┃⬡ https://instagram.com/mursid.st
-║┗━━━━━━
+║┗━━━━━
 ╰══════════════❉`.trimStart(),
     header: '║┏━━〔 %category 〕━❉',
     body: '║┃⬡%cmd %islimit %isPremium',
-    footer: '┗━━❉\n',
+    footer: '╰═══❉\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
