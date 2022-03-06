@@ -13,30 +13,31 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-┏━━〔 MURSID BOT 〕━⬣
-┃⬡ Hai, %name!
-┃
-┃⬡ Tersisa %limit Limit
-┃⬡ Role %role
-┃⬡ Level %level (%exp / %maxexp) 
-┃⬡ [%xp4levelup]
-┃⬡ %totalexp XP secara Total
-┃ 
-┃⬡ Hari : %week %weton 
-┃⬡ Tanggal : %date
-┃⬡ Tanggal Islam : 
-┃⬡ %dateIslamic
-┃⬡ Waktu : %time
-┃
-┃⬡ Uptime : %uptime
-┃⬡ Database : %rtotalreg dari %totalreg
-┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
-┃⬡ Instagram :
-┃⬡ https://instagram.com/mursid.st
-┗━━━━━━⬣`.trimStart(),
-    header: '┏━━〔 %category 〕━⬣',
-    body: '┃⬡%cmd %islimit %isPremium',
-    footer: '┗━━⬣\n',
+║┏━━〔 Bot Wa 〕━❉
+║┃⬡ Hai, %name!
+║┃
+║┃⬡ Tersisa %limit Limit
+║┃⬡ Role %role
+║┃⬡ Level %level (%exp / %maxexp) 
+║┃⬡ [%xp4levelup]
+║┃⬡ %totalexp XP secara Total
+║┃ 
+║┃⬡ Hari : %week %weton 
+║┃⬡ Tanggal : %date
+║┃⬡ Tanggal Islam : 
+║┃⬡ %dateIslamic
+║┃⬡ Waktu : %time
+║┃
+║┃⬡ Uptime : %uptime
+║┃⬡ Database : %rtotalreg dari %totalreg
+║┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
+║┃⬡ Instagram :
+║┃⬡ https://instagram.com/mursid.st
+║┗━━━━━━
+╰══════════════❉`.trimStart(),
+    header: '║┏━━〔 %category 〕━❉',
+    body: '║┃⬡%cmd %islimit %isPremium',
+    footer: '┗━━❉\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
