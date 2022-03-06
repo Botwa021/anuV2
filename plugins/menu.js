@@ -33,11 +33,11 @@ const defaultMenu = {
 ║┃⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
 ║┃⬡ Instagram :
 ║┃⬡ https://instagram.com/mursid.st
-║┗━━━━━
+║┗━━
 ╰══════════════❉`.trimStart(),
     header: '║┏━━〔 %category 〕━❉',
     body: '║┃⬡%cmd %islimit %isPremium',
-    footer: '╰═══❉\n',
+    footer: '╰═════════❉\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
@@ -184,7 +184,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
         let names = m.fromMe ? conn.user : conn.contacts[who]
         let pushname = `${names.vnmae || names.notify || names.names || ('+' + names.jid.split`@`[0])}`
-        let pushn = 'Daftar Dulu ya kak supaya namanya muncul disini'
+        let pushn = 'Daftar dulu ya kak'
         let name = registered ? global.db.data.users[m.sender].name : pushn
         let d = new Date(new Date + 3600000)
         let locale = 'id'
