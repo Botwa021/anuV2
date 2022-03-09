@@ -1,7 +1,7 @@
 <h1 align="center">Hi! 👋 I'm MursidXzy</h1>
 
 <p align="center">
-  <a href="https://ibb.co/QQX130c"><img src="http://readme-typing-svg.herokuapp.com?color=1C71FA&center=true&vCenter=true&multiline=false&lines=I'Am+AlyaaXzy+?+From+Indonesia.;I'am+Not+Programmer." alt="AlyaaXzy">
+  <a href="https://ibb.co/QQX130c"><img src="http://readme-typing-svg.herokuapp.com?color=1C71FA&center=true&vCenter=true&multiline=false&lines=I'Am+MursidXzy+?+From+Indonesia.;I'am+Not+Programmer." alt="MursidXzy">
 </p>
 
 <p align="center">
@@ -13,8 +13,8 @@
 </p>
 
 
-# AlyaaXzy
-Simple Rpg WhatsApp Bot AlyaaXzy
+# MursidXyz
+Simple Rpg WhatsApp Bot MursidXzy
 
 <a href="https://github.com/Dawnfrosty/Mike-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dawnfrosty/Mike-bot?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/Dawnfrosty/Mike-bot/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Dawnfrosty/Mike-bot?label=Watchers&color=green&style=flat-square"></a>
