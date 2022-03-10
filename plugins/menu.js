@@ -13,8 +13,7 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-╭══════════════❉
-║╭──〔 Bot Wa 〕─❉
+║╭──〘 𝙼𝚞𝚛𝚜𝚒𝚍 𝙱𝙾𝚃 〙─❉
 ║│⬡ Hai, %name!
 ║│
 ║│⬡ Tersisa %limit Limit
@@ -34,11 +33,11 @@ const defaultMenu = {
 ║│⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
 ║│⬡ Instagram :
 ║│⬡ https://instagram.com/mursid.st
-║╰─────────────
-╰══════════════❉`.trimStart(),
-    header: '║╭──〔 %category 〕─❉',
+║╰───────────
+╰━━━━━━━━━━━━❉`.trimStart(),
+    header: '║╭──〘 %category 〙─❉',
     body: '║│⬡%cmd %islimit %isPremium',
-    footer: '╰═════❉\n',
+    footer: '╰━━━━━━❉\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
