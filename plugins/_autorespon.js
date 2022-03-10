@@ -17,7 +17,7 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Mursid lagi cape :)' : banned ? 'kamu dibanned' : 'Mursid disini :）',
+                isBanned ? 'Mursid lagi cape :)' : banned ? 'kamu dibanned' : 'Ada apa ya?',
                 '',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.menu',
@@ -38,7 +38,7 @@ handler.all = async function (m, { isBlocked }) {
 │⬦ *12 Bulan* :      *Rp 150.000*
 ┝━━〔Payment • Pulsa〕━✧
 │⬦ Smartfren : 088233832771
-│⬦ Saweria : Gak ada
+│⬦ Saweria : saweria.co/mursid25
 │⬦ Tri : 089612698583
 ┝━━〔Dana • Non Pulsa〕━✧
 │⬦ Dana : 088233832771
@@ -75,7 +75,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', '
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`I'm 𝙼𝚞𝚛𝚜𝚒𝚍 𝙱𝙾𝚃🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User ||🖥️ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
+        await this.setStatus(`I'm 𝐌𝐔𝐑𝐒𝐈𝐃 𝐁𝐎𝐓🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User ||🖥️ Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
