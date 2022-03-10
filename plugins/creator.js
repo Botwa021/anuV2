@@ -1,6 +1,6 @@
 const contacts = [
-  ['6288233832771', ' Mursid (Owner)'],
-  ['6289612698583', ' M'],
+  ['6288233832771', ' Mursid S'],
+  ['6289612698583', ' 𝙼𝚞𝚛𝚜𝚒𝚍 𝙱𝙾𝚃'],
 ]
 function handler(m) {
   m.reply('Ada perlu apa kak cari owner?, chat *P* tidak akan di balas')
