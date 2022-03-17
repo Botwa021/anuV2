@@ -72,10 +72,10 @@ global.rpg = 'Fitur Rpg Dimatikan\nKetik *!enable* *rpg* untuk menggunakan fitur
 global.nsfw = 'Fitur NSFW Dimatikan\nKetik *!enable* *nsfw* untuk menggunakan fitur ini!\n“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mereka menahan pandanganya, dan memelihara kemaluannya; … Katakanlah kepada wanita yang beriman: Hendaklah mereka menahan pandangannya, dan kemaluannya, dan janganlah mereka Menampakkan perhiasannya, kecuali yang (biasa) nampak dari padany,” \n(TQS. Al-Nur [24]: 30-31).'
 global.eror = '_*Server Error kak*_'
 
-global.fla = 'https://api.zeks.me/api/breakwall?apikey=apivinz&text='
+global.image = "https://telegra.ph/file/ad4bd42a85fa77b0a2cdf.jpg"
 
 // Ubah saja SC dari MursidXzy
-global.image = 'https://telegra.ph/file/de21f5b2b1f3b52362e3a.jpg'//thumbnail
+global.image = 'https://telegra.ph/file/ad4bd42a85fa77b0a2cdf.jpg'//thumbnail
 
 // tingkat kesulitan, semakin tinggi semakin susah
 global.multiplier = 36 // The higher, The harder levelup
