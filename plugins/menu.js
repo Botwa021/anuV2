@@ -13,11 +13,12 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-╭━━━━━━━━━━━━⬣
+╭──────═┅═──────⬣
 ║╭──〘 _*BOTCAHX*_ 〙─❉
-║│⬡ Hai, %name!
+║│⬡ Hai ${ucapan()}, %name!
 ║│
 ║│⬡ Tersisa %limit Limit
+║│⬡ Premium : %prems
 ║│⬡ Role %role
 ║│⬡ Level %level (%exp / %maxexp) 
 ║│⬡ [%xp4levelup]
@@ -25,6 +26,7 @@ const defaultMenu = {
 ║│ 
 ║│⬡ Hari : %week %weton 
 ║│⬡ Tanggal : %date
+║│⬡ Platform : Unbuntu linux
 ║│⬡ Tanggal Islam : 
 ║│⬡ %dateIslamic
 ║│⬡ Waktu : %time
@@ -32,13 +34,14 @@ const defaultMenu = {
 ║│⬡ Uptime : %uptime
 ║│⬡ Database : %rtotalreg dari %totalreg
 ║│⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
+║│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ║│⬡ Instagram :
 ║│⬡ https://instagram.com/mursid.st
 ║╰───────────
-╰━━━━━━━━━━━━⬣`.trimStart(),
+╰──────═┅═──────⬣`.trimStart(),
     header: '║╭──〘 %category 〙─❉',
     body: '║│⬡%cmd %islimit %isPremium',
-    footer: '╰━━━━━━❉\n',
+    footer: '╰───═┅═───❉\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
