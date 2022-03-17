@@ -13,7 +13,7 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-╭━━━━━━━━━━━━
+╭━━━━━━━━━━━━⬣
 ║╭──〘 _*BOTCAHX*_ 〙─❉
 ║│⬡ Hai, %name!
 ║│
@@ -35,7 +35,7 @@ const defaultMenu = {
 ║│⬡ Instagram :
 ║│⬡ https://instagram.com/mursid.st
 ║╰───────────
-╰━━━━━━━━━━━━`.trimStart(),
+╰━━━━━━━━━━━━⬣`.trimStart(),
     header: '║╭──〘 %category 〙─❉',
     body: '║│⬡%cmd %islimit %isPremium',
     footer: '╰━━━━━━❉\n',
