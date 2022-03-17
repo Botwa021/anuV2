@@ -60,7 +60,7 @@ global.author = 'ʙᴏᴛ' // ganti aja
 
 //yyy
 bc = 'мυяѕι∂' //мυяѕι∂ Broadcast
-footer = `\n𝐌𝐔𝐑𝐒𝐈𝐃 𝐁𝐎𝐓`
+footer = `\n© _*BOTCAHX*_`
 namabot = `WhatsApp Bot`
 namalu = 'MursidGanteng'
 
