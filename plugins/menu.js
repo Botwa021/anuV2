@@ -17,26 +17,26 @@ const defaultMenu = {
 ║╭──『 _*BOTCAHX*_ 』──❉
 ║│⬡ Hai, %name!
 ║│
-║│⬡ Tersisa : %limit Limit
-║│⬡ Role %role
-║│⬡ Level %level (%exp / %maxexp) 
-║│⬡ [%xp4levelup]
-║│⬡ %totalexp XP secara Total
+║│⬡ *Tersisa* : %limit Limit
+║│⬡ *Premium* : %prem
+║│⬡ *Role* : %role
+║│⬡ *Level* : %level (%exp / %maxexp) 
+║│⬡ *Level UP* : (%xp4levelup)
+║│⬡ *Exp* : %totalexp XP 
 ║│ 
-║│⬡ Hari : %week %weton 
-║│⬡ Tanggal : %date
-║│⬡ Tanggal Islam : 
-║│⬡ %dateIslamic
-║│⬡ Waktu : %time
+║│⬡ *Hari* : %week %weton 
+║│⬡ *Tanggal* : %date
+║│⬡ *Tanggal Islam* : %dateIslamic
+║│⬡ *Waktu* : %time
 ║│
-║│⬡ Uptime : %uptime
-║│⬡ Database : %rtotalreg dari %totalreg
-║│⬡ Memory Used : *${ramDipake}MB / ${totalram}MB*
-║│⬡ Instagram :
+║│⬡ *Uptime* : %uptime
+║│⬡ *Database* : %rtotalreg dari %totalreg
+║│⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
+║│⬡ *Instagram* :
 ║│⬡ https://instagram.com/mursid.st
 ║╰───────────
 ╰──────═┅═──────⬣`.trimStart(),
-             ╭─────────❉
+
     header: '║╭──〘 %category 〙──❉',
     body: '║│⬡%cmd %islimit %isPremium',
     footer: '╰───═┅═───❉\n',
@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
         let names = m.fromMe ? conn.user : conn.contacts[who]
         let pushname = `${names.vnmae || names.notify || names.names || ('+' + names.jid.split`@`[0])}`
-        let pushn = 'Daftar dulu ya kak'
+        let pushn = 'Daftar dulu ya om'
         let name = registered ? global.db.data.users[m.sender].name : pushn
         let d = new Date(new Date + 3600000)
         let locale = 'id'
