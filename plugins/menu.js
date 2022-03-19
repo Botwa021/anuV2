@@ -18,7 +18,6 @@ const defaultMenu = {
 ║│⬡ Hai, %name!
 ║│
 ║│⬡ *Tersisa* : %limit Limit
-║│⬡ *Premium* : %prem
 ║│⬡ *Role* : %role
 ║│⬡ *Level* : %level (%exp / %maxexp) 
 ║│⬡ *Level UP* : (%xp4levelup)
@@ -34,6 +33,8 @@ const defaultMenu = {
 ║│⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
 ║│⬡ *Instagram* :
 ║│⬡ https://instagram.com/mursid.st
+║│⬡ *GitHub* :
+║│⬡ https://botwa021.github.io
 ║╰───────────
 ╰──────═┅═──────⬣`.trimStart(),
 
