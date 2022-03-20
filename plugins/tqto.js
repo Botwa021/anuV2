@@ -2,21 +2,29 @@ let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(thanks)).buffer(), `
 BIG THANKS TO
 
-•Allah swt
+•Allah SWT
 •My ortu
-•Nurutomo
+•Nurutomo as wabot-aq
 •Adiwajshing
-•Ariffb
+•ariffb as stikerinbot
+•bochilgaming as games-wabot
+•Syahrul
+•RFK Team
+•Real Fams Killer
 •Amel
 •IrwanX
 •Dawnfrosty
 •Rteam1
 •Beniismael
 •Raditya 
-•AlyaaXzy (gua)
+•AlyaaXzy
+•King Of Bear
+•Mursid S
 •Furqan
 •Elyas
 •Rasel
+•zerochanBot
+•MikeBot Dev Team
 •Xteam
 •khael
 •Atenabot
@@ -27,6 +35,7 @@ BIG THANKS TO
 •Nadin
 •Aca Mirabel
 •Penyedia Layanan API
+•All Creator Bot
 •Orang-orang yang Berdonasi
 `.trim(), watermark, 'Back', '.menu')
 handler.help = ['Thanksto', 'tqto']
