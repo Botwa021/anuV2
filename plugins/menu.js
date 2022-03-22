@@ -33,7 +33,6 @@ const defaultMenu = {
 ║│⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
 ║│⬡ *Instagram* :
 ║│⬡ https://instagram.com/mursid.st
-║│⬡ *GitHub* :
 ║│⬡ https://botwa021.github.io
 ║╰───────────
 ╰──────═┅═──────⬣`.trimStart(),
