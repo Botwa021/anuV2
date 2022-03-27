@@ -1,17 +1,21 @@
 let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + 'donasi')).buffer(), `
+let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(image + 'donasi')).buffer(), `
 ╭═══ 〔 𝐃𝐎𝐍𝐀𝐒𝐈 〕 ══❉
-║│➸ 𝐃𝐀𝐍𝐀 :
+║│➸ *_Dana_* :
 ║│➸ *088233832771*
 ║│
-║│➸ 𝐏𝐔𝐋𝐒𝐀 :
+║│➸ *_Pulsa_* :
 ║│➸ *089612698583*
 ║│➸ *088233832771*
 ║│
-║│➸ 𝐒𝐀𝐖𝐄𝐑𝐈𝐀 :
+║│➸ *_Saweria_* :
 ║│➸ *saweria.co/mursid25*
 ║│
-║│➸ 𝐎𝐖𝐍𝐄𝐑 𝐁𝐎𝐓 :
+║│➸ *_Website_*
+║│➸ *_https://bit.ly/3LeJCXu_*
+║│➸ *_https://bit.ly/3LmtovB_*
+║│
+║│➸ *_Owner Bot_* :
 ║│➸ *wa.me/6288233832771*
 ║│
 ║│➸「 _*Grup Bot 1*_ 」
