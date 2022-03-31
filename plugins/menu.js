@@ -32,7 +32,6 @@ const defaultMenu = {
 │⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
 │⬡ *Instagram* :
 │⬡ https://instagram.com/mursid.st
-│
 ╰─────═┅═─────⬣`.trimStart(),
     header: '*╭──〘 %category 〙──⬣*',
     body: '│⬡%cmd %islimit %isPremium',
@@ -482,7 +481,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 await conn.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', 'BY MURSID (+6288233832771)', 'status@broadcast')
- conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\nCreated by @⁨Mursid S⁩`, 'ρємιℓιк вσт', '.owner', 'ᴅαтα мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
+ conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\nCreated by @6288233832771`, 'ρємιℓιк вσт', '.owner', 'ᴅαтα мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
 mentionedJid: ['6288233832771@s.whatsapp.net']
 }
 })
