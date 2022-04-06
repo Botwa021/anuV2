@@ -244,11 +244,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *Chat Terbanned* : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
 ┃⬡ *Pengguna Terbanned* : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ┃
-┃⬡ Script Original : Nurutomo
-┃⬡ Recode
-┃⬡ Instagram : instagram.com/mursid.st
-┃⬡ Website : https://bit.ly/35IPaKD
-┗━━━━━━━━⬣`.trim(),
+┃⬡ *Script Original* : Nurutomo
+┃⬡ *Recode* : Mursid S
+┃⬡ *Run BOT* : Heroku
+┃⬡ *Instagram* : bit.ly/Instagram-Mursid25
+┃⬡ *Website* : bit.ly/Website-Mursid
+┗━━━━━━━━━━━━⬣`.trim(),
                         "footerText": "© _*BOTCAHX*_",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
