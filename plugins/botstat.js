@@ -14,8 +14,7 @@ let handler = async (m, { conn }) => {
 │Main Owner : Mursid S
 │Operated Since: 19 September 2021/2022
 │Language Used: Nodejs (JS)
-│Server: Heroku
-│SC : PRIVATE
+│Server: Heroku/VPS
 └────
 
 ┌─〔 _*Status Bot*_ 〕
@@ -40,7 +39,7 @@ let handler = async (m, { conn }) => {
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© _BOTCAHX_ ', '_*Owner Bot*_', '.owner', '_*Semua Perintah*_', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© _BOTCAHX_ ', 'ρємιℓιк вσт', '.owner', 'мєηυ αℓℓ', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
