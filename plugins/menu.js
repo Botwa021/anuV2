@@ -232,10 +232,24 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         })
         if (teks == '404') {
                 return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
-                    "listMessage":  {
-                        "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© _*BOTCAHX*_`.trim(),
-                        "footerText": "https://instagram.com/mursid.st",
+                  "listMessage": {
+                    "title": `${ucapan()}, ${name}`.trim(),
+                    "description": `
+┏━━━『 _*Status Bot*_ 』━━━⬣
+┃⬡ *Aktif selama* : ${uptime}
+┃⬡ *Baterai* : ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+┃⬡ *Pengguna* : ${Object.keys(global.db.data.users).length}
+┃⬡ *Jadibot* : ${totaljadibot.length}
+┃⬡ *Terblock* : ${conn.blocklist.length} 
+┃⬡ *Chat Terbanned* : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
+┃⬡ *Pengguna Terbanned* : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
+┃
+┃⬡ Script Original : Nurutomo
+┃⬡ Recode
+┃⬡ Instagram : instagram.com/mursid.st
+┃⬡ Website : https://bit.ly/35IPaKD
+┗━━━━━━━━⬣`.trim(),
+                        "footerText": "© _*BOTCAHX*_",
                         "buttonText": "*Click Here*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -248,6 +262,10 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "title": "Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
+                                }, {
+                                    "title": "Info Mursid",
+                                    "description": "Info Tentang Owner Bot",
+                                    "rowId": ".infomursid"
                                 }, {
                                     "title": "Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
@@ -364,15 +382,15 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "Tanpa Kategori",
-                                    "description": "",
+                                    "title": "|🌴|Tanpa Kategori",
+                                    "description": "Menu Tanpa Kategori/Belum Update",
                                     "rowId": ".? tanpakategori"
                                 }, { 
                                     "title": "|🧑‍💻| Owner",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
-                                "title": "⬡────────────❲ Tentang Bot dan lainnya ❳────────────⬡"
+                                "title": "⬡─────────❲ Tentang Bot dan lainnya ❳─────────⬡"
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
@@ -481,7 +499,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 await conn.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', 'BY MURSID (+6288233832771)', 'status@broadcast')
- conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\nCreated by @6288233832771`, 'ρємιℓιк вσт', '.owner', 'ᴅαтα мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
+ conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\nCreated by @⁨Mursid S⁩`, 'ρємιℓιк вσт', '.owner', 'ᴅαтα мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
 mentionedJid: ['6288233832771@s.whatsapp.net']
 }
 })
