@@ -9,16 +9,16 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 
     let str = `
-┌─〔 Info AlyaaXzy Botz 〕
-│Name: AlyaaXzy
-│Main Owner: AlyaaXzy
-│Operated Since: 19 September 2021
+┌─〔 _*Info MursidXzy*_ 〕
+│Name : MursidXd
+│Main Owner : Mursid S
+│Operated Since: 19 September 2021/2022
 │Language Used: Nodejs (JS)
 │Server: Heroku
-│SC: -
+│SC : PRIVATE
 └────
 
-┌─〔 Status 〕
+┌─〔 _*Status Bot*_ 〕
 ├ Aktif selama ${uptime}
 ├ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 ├ *${groups.length}* Grup
@@ -30,7 +30,7 @@ let handler = async (m, { conn }) => {
 ├ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 └────
 
-┌─〔 Pengaturan 〕
+┌─〔 _*Pengaturan*_ 〕
 ├ ${anon ? '✅' : '❌'} *Anon Chat*
 ├ ${anticall ? '✅' : '❌'} *Anti Call*
 ├ ${antispam ? '✅' : '❌'} *Anti Spam*
@@ -40,7 +40,7 @@ let handler = async (m, { conn }) => {
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©AlyaaXzy ', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© _BOTCAHX_ ', '_*Owner Bot*_', '.owner', '_*Semua Perintah*_', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
