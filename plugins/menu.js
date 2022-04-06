@@ -13,29 +13,29 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-╭──『 _*BOTCAHX*_ 』──⬣
-│⬡ *Hai*, %name!
-│
-│⬡ *Tersisa* : %limit Limit
-│⬡ *Role* : %role
-│⬡ *Level* : %level (%exp / %maxexp) 
-│⬡ *Level UP* : (%xp4levelup)
-│⬡ *Exp* : %totalexp XP 
-│ 
-│⬡ *Hari* : %week %weton 
-│⬡ *Tanggal* : %date
-│⬡ *Tanggal Islam* : %dateIslamic
-│⬡ *Waktu* : %time
-│
-│⬡ *Uptime* : %uptime
-│⬡ *Database* : %rtotalreg dari %totalreg
-│⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
-│⬡ *Instagram* :
-│⬡ https://instagram.com/mursid.st
-╰─────═┅═─────⬣`.trimStart(),
-    header: '*╭──〘 %category 〙──⬣*',
+┏━━━『 _*BOTCAHX*_ 』━━━⬣
+┃⬡ *Hai*, %name!
+┃
+┃⬡ *Tersisa* : %limit Limit
+┃⬡ *Role* : %role
+┃⬡ *Level* : %level (%exp / %maxexp) 
+┃⬡ *Level UP* : (%xp4levelup)
+┃⬡ *Exp* : %totalexp XP 
+┃ 
+┃⬡ *Hari* : %week %weton 
+┃⬡ *Tanggal* : %date
+┃⬡ *Tanggal Islam* : %dateIslamic
+┃⬡ *Waktu* : %time
+┃
+┃⬡ *Uptime* : %uptime
+┃⬡ *Database* : %rtotalreg dari %totalreg
+┃⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
+┃⬡ *Instagram* :
+┃⬡ https://instagram.com/mursid.st
+┗━━━━━━━━━━━━⬣`.trimStart(),
+    header: '┏━━━*〘 %category 〙━━⬣*',
     body: '│⬡%cmd %islimit %isPremium',
-    footer: '*╰───═┅═───⬣*\n',
+    footer: '*┗━━━━━━━━━━⬣*\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
@@ -246,7 +246,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃⬡ *Script Original* : Nurutomo
 ┃⬡ *Recode* : Mursid S
-┃⬡ *Run BOT* : Heroku
+┃⬡ *Language Used* : Nodejs (JS)
 ┃⬡ *Instagram* : bit.ly/Instagram-Mursid25
 ┃⬡ *Website* : bit.ly/Website-Mursid
 ┗━━━━━━━━━━━━⬣`.trim(),
