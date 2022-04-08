@@ -32,10 +32,10 @@ const defaultMenu = {
 ┃⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
 ┃⬡ *Instagram* :
 ┃⬡ https://instagram.com/mursid.st
-┗━━━━━━━━━━━━⬣`.trimStart(),
-    header: '┏━━━*〘 %category 〙━━⬣*',
-    body: '│⬡%cmd %islimit %isPremium',
-    footer: '*┗━━━━━━━━━━⬣*\n',
+┗━━━━━━━━━━⬣`.trimStart(),
+    header: '┏━━━〘 %category 〙━━⬣'
+    body: '┃⬡%cmd %islimit %isPremium',
+    footer: '*┗━━━━━━━━⬣*\n',
     after: `
 %npmname@^%version
 ${'%npmdesc'}
@@ -243,12 +243,6 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *Terblock* : ${conn.blocklist.length} 
 ┃⬡ *Chat Terbanned* : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
 ┃⬡ *Pengguna Terbanned* : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
-┃
-┃⬡ *Script Original* : Nurutomo
-┃⬡ *Recode* : Mursid S
-┃⬡ *Language Used* : Nodejs (JS)
-┃⬡ *Instagram* : bit.ly/Instagram-Mursid25
-┃⬡ *Website* : bit.ly/Website-Mursid
 ┗━━━━━━━━━━━━⬣`.trim(),
                         "footerText": "© _*BOTCAHX*_",
                         "buttonText": "*Click Here*",
@@ -500,7 +494,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
         text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 await conn.fakeReply(m.chat, 'Loading...', '0@s.whatsapp.net', 'BY MURSID (+6288233832771)', 'status@broadcast')
- conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime : ${uptime}\n${week} ${date}\nCreated by @⁨Mursid S⁩`, 'ρємιℓιк вσт', '.owner', 'ᴅαтα мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
+ conn.send3ButtonLoc(m.chat, await (await fetch(image)).buffer(), text.trim(), `Runtime ${uptime}\n${week} ${date}\nCreated By @⁨6288233832771`, 'ρємιℓιк вσт', '.owner', 'ɪɴƒᴏ мυʀѕι∂', '.infomursid', 'ʀυℓєѕ', '.rules', m, { contextInfo: {
 mentionedJid: ['6288233832771@s.whatsapp.net']
 }
 })
