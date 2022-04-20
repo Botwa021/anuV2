@@ -516,16 +516,16 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 "fileLength": "99999999999999",
                 "pageCount": 100,
                 "mediaKey": "XWv4hcnpGY51qEVSO9+e+q6LYqPR3DbtT4iqS9yKhkI=",
-                "fileName": 'Creαted by : мυʀѕι∂',
+                "fileName": 'Creαted By : мυʀѕι∂',
                 "fileEncSha256": "NI9ykWUcXKquea4BmH7GgzhMb3pAeqqwE+MTFbH/Wk8=",
                 "directPath": "/v/t62.7118-24/35150115_287008086621545_8250021012380583765_n.enc?ccb=11-4&oh=6f0f730e5224c054969c276a6276a920&oe=61A21F46",
                 "mediaKeyTimestamp": "1634472176",
-                "jpegThumbnail": await (await fetch('https://telegra.ph/file/778acaaf9c0c5ec6265a3.jpg')).buffer(),
+                "jpegThumbnail": await (await fetch('https://telegra.ph/file/d04ded4cbfbbf38b60a50.jpg')).buffer(),
             }
         }, 'buttonsMessage', {
             quoted: false, contextInfo: {
                 forwardingScore: 999, isForwarded: true, externalAdReply: {
-                    title: global.wm, mediaType: 2, thumbnail: global.thumb, mediaUrl: 'https://youtube.com/watch?v=uIedYGN3NQQ', mentionedJid: ['6288233832771@s.whatsapp.net']
+                    title: global.wm, mediaType: 2, thumbnail: global.thumb, mediaUrl: 'https://youtube.com', mentionedJid: ['6288233832771@s.whatsapp.net']
                 }
             }
         })
