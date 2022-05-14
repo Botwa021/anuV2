@@ -13,7 +13,7 @@
 </p>
 
 
-# AlyaaXyz
+# MursidGanteng
 Simple Rpg WhatsApp Bot AlyaaXzy
 
 <a href="https://github.com/Dawnfrosty/Mike-bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Dawnfrosty/Mike-bot?label=Forks&color=blue&style=flat-square"></a>
@@ -37,21 +37,8 @@ Simple Rpg WhatsApp Bot AlyaaXzy
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 
-Tutorial YouTube
-
-[![YouTube](https://img.shields.io/badge/YouTube-Video-red)](AlyaaXzy ?)
-## FOR TERMUX/UBUNTU/SSH USER AlyaaXzy
-
 ```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/AlyaaXd/rfkbotV2
-cd rfkbotV2
-npm install
-npm update
+GA USAH MAKE TERMUX BANG DELAY MENDING PAKE RDP/VPS/PANEL/HEROKU okey🥺
 ```
 ---------
 
@@ -63,10 +50,7 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/AlyaaXd/rfkbotV2-bot
-cd rfkbotV2
-npm install
-npm update
+Instagram = instagram.com/mursid.st
 ```
 
 ---------
